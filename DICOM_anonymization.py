@@ -235,7 +235,7 @@ for std in studies:
 # Verify if data is de-id
 path_deidentification = r"TSA_data_anonymized_dst"
 studies_anonymized = np.array([[(os.path.join(dp, f), pydicom.dcmread(os.path.join(dp, f), stop_before_pixels = True)) for f in files] for dp,_,files in os.walk(path_deidentification) if len(files) != 0])
-
+print("ni")
 print(studies_anonymized[0][0][1])
 print("blabla")
 prin("hello")
