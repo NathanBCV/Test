@@ -238,4 +238,3 @@ studies_anonymized = np.array([[(os.path.join(dp, f), pydicom.dcmread(os.path.jo
 
 print(studies_anonymized[0][0][1])
 print("blabla")
-
